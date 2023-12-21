@@ -8,9 +8,9 @@ class GenThree {
 		x = x*((b - a)) + a;
 		y = y*((b - a)) + a;
 		z = z*((b - a)) + a;
-		x = Math.round(x);
-		y = Math.round(y);
-		z = Math.round(z);
+		x = (int)x;
+		y = (int)y;
+		z = (int)z;
 		int min = (int)Math.min(Math.min(x, y), z);
 		System.out.println((int)x);
         System.out.println((int)y);
